@@ -24,10 +24,12 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
 
 ## Getting Started
 
+DataStore is a `key-value pair` based Data Storing Helper class for `Java`. it Stores data given as `HashMap<String,String>` as `JSON`. It is a lightweight helper class which can be used with anykind of java projects which requries JSON data storing functionality. DataStore supports `Time-to-Live` functionality which enables you to specify the time in `Seconds` after which the file will be deleted. DataStore is `Thread-Safe` that is DataStore can be used in multiple Threads. the key value of DataStore is capped at `32 chars` and the size of the given value is capped at `16KB` and the OverAll file size is capped at `1 GB`.
+
 ### Installation
 
 1. Clone the repo
-   ```sh
+   ```
    git clone https://github.com/arun1810/Data_Store.git
    ```
 ## Compile And Run
@@ -49,7 +51,7 @@ DataStore datastore = DataStore.getInstance(); // This returns a Instance of Dat
 
 DataStore datastore = DataStore.getInstance("path");// This returns a Instance of DataStore in the given "path".
 ```
-#### To Create
+#### To Create Data
 ```
 HashMap<String,String> value = new HashMap<String,String>(); // your value to be Stored.
 
@@ -57,11 +59,11 @@ datastore.Create("Youe Key",value); // Save the given value on the given key.
 
 datastore.Create("Your Key",value,100); // Save the given data on the given key with Time-To-Live property in Seconds
 ```
-#### To Read
+#### To Read Data
 ```
 datastore.Read("Your Key"); // Return the value stored on the given key as HashMap<String,String>
 ```
-#### To Delete
+#### To Delete data
 ```
 datastore.Delete("Your Key"); // Deletes the key and the value stored on the given key.
 ```

@@ -7,6 +7,7 @@ Java based helper class fore Storing, Reading and Deleting JSON files.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## How to Compile
+put DataStore.java and DataStoreSamples.java in same folder and run the following command in Command-prompt
 ```
 javac -cp "gson-2.2.2.jar";"."; DataStoreSamples.java
 ```

@@ -56,7 +56,7 @@ Copy the DataStore.java and CustomExceptions folder inside your project.
 // This returns a Instance of DataStore in the default path
 DataStore datastore = DataStore.getInstance(); 
 
-// This returns a Instance of DataStore in the given "path"
+// This returns a Instance of DataStore in the given path
 DataStore datastore = DataStore.getInstance("path");
 ```
 #### To Create Data

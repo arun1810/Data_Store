@@ -14,8 +14,7 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
         <li><a href="#tocompile">To Compile</a></li>
         <li><a href="#torun">To Run</a></li>
         </ul>
-        
-      </ul>
+        </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>

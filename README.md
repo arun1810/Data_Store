@@ -1,9 +1,10 @@
 # Data_Store
 
 Java based helper class fore Storing, Reading and Deleting JSON files.
--[Get Started]
--[How to compile]
--[How to Run]
+ ### Contents:
+    -[Getting Started](# Getting Started)
+    -[How to compile](# How to compile)
+    -[How to Run](# How to Run)
 
 ## Getting Started
 

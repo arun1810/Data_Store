@@ -8,6 +8,7 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#Features">Features</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#Pre-request">Pre-request</a></li>
         <li><a href="#Compile-And-Run">Compile and Run</a></li>
@@ -21,6 +22,15 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
     
   </ol>
 </details>
+
+## Features
+
+<ol>
+<li>JSON parser</li>
+<li>Time-To-Live feature</li>  
+<li>Thread Safe</li>  
+<li>Works on all major OS(Mac,Windows)</li>
+</ol>
  
 
 ## Getting Started

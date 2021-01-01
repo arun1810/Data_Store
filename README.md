@@ -18,7 +18,7 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
         </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    
   </ol>
 </details>
  

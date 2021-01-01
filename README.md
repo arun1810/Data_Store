@@ -23,16 +23,16 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/bala0406/Simple-Store.git
+   git clone https://github.com/arun1810/Data_Store.git
    ```
-
-## How to Compile
+## Compile And Run
 put DataStore.java and DataStoreSamples.java in same folder and run the following command in Command-prompt
+### To Compile
 ```
 javac -cp "gson-2.2.2.jar";"."; DataStoreSamples.java
 ```
-
-## How to Run
+### To Run
 ```
 java -cp "gson-2.2.2.jar";"."; DataStoreSamples
 ```
+

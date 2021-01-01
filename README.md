@@ -11,8 +11,8 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
         <li><a href="#installation">Installation</a></li>
         <li><a href="#Compile-And-Run">Compile and Run</a></li>
         <ul>
-        <li><a href="#tocompile">To Compile</a></li>
-        <li><a href="#torun">To Run</a></li>
+        <li><a href="#to-compile">To Compile</a></li>
+        <li><a href="#to-run">To Run</a></li>
         </ul>
         </ul>
     </li>
@@ -31,7 +31,7 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
    git clone https://github.com/arun1810/Data_Store.git
    ```
 ## Compile And Run
-put DataStore.java and DataStoreSamples.java in same folder and run the following command in Command-prompt
+Put the DataStore.java and DataStoreSamples.java in same folder and run the following command in Command-prompt
 ### To Compile
 ```
 javac -cp "gson-2.2.2.jar";"."; DataStoreSamples.java
@@ -40,4 +40,6 @@ javac -cp "gson-2.2.2.jar";"."; DataStoreSamples.java
 ```
 java -cp "gson-2.2.2.jar";"."; DataStoreSamples
 ```
+## Usage
+
 

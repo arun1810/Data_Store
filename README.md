@@ -9,7 +9,7 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#compileandrun">Compile and Run</a></li>
+        <li><a href="#Compile And Run">Compile and Run</a></li>
         <ul>
         <li><a href="#tocompile">To Compile</a></li>
         <li><a href="#torun">To Run</a></li>

@@ -2,9 +2,9 @@
 
 Java based helper class fore Storing, Reading and Deleting JSON files.
  ### Contents:
- <details open="open">
+ 
   <summary><h2 style="display: inline-block">Getting Started</h2></summary>
- </details>
+ 
 
 ## Getting Started
 

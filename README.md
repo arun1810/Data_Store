@@ -29,7 +29,7 @@ DataStore is a `key-value pair` based Data Storing Helper class for `Java`. it S
 ### Installation
 
 1. Clone the repo
-   ```
+   ```sh
    git clone https://github.com/arun1810/Data_Store.git
    ```
 ## Compile And Run

@@ -46,7 +46,7 @@ java -cp "gson-2.2.2.jar";"."; DataStoreSamples
 Copy the DataStore.java and CustomExceptions folder inside your project.
 
 #### To create Instance
-```
+```sh
 DataStore datastore = DataStore.getInstance(); // This returns a Instance of DataStore in the default path.
 
 DataStore datastore = DataStore.getInstance("path");// This returns a Instance of DataStore in the given "path".

@@ -9,7 +9,7 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#Pre -request">Pre-request</a></li>
+        <li><a href="#Pre-request">Pre-request</a></li>
         <li><a href="#Compile-And-Run">Compile and Run</a></li>
         <ul>
         <li><a href="#to-compile">To Compile</a></li>
@@ -27,8 +27,6 @@ A Java based helper class fore Storing, Reading and Deleting JSON files.
 
 DataStore is a `key-value pair` based Data Storing Helper class for `Java`. it Stores data given as `HashMap<String,String>` as `JSON`. It is a lightweight helper class which can be used with any kind of java projects which requries JSON data storing functionality. DataStore supports `Time-to-Live` functionality which enables you to specify the time in `Seconds` after which the file will be deleted. DataStore is `Thread-Safe` that is DataStore can be used in multiple Threads. the key size of DataStore is capped at `32 chars` and the size of the given value is capped at `16KB` and the OverAll file size is capped at `1 GB`.
 
-### Pre-request
-DataStore uses `Gson-2.2.2.jar` to convert HashMap to JSON and  JSON to HashMap. to compile and run the DataStore the Gson-2.2.2.jar should be included in the classpath.
 
 ### Installation
 
@@ -36,6 +34,10 @@ DataStore uses `Gson-2.2.2.jar` to convert HashMap to JSON and  JSON to HashMap.
    ```sh
    git clone https://github.com/arun1810/Data_Store.git
    ```
+### Pre-request
+
+DataStore uses `Gson-2.2.2.jar` to convert HashMap to JSON and  JSON to HashMap. to compile and run the DataStore the Gson-2.2.2.jar should be included in the classpath.
+
 ## Compile And Run
 Put the DataStore.java and DataStoreSamples.java in same folder and run the following command in Command-prompt
 ### To Compile
